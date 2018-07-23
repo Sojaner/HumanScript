@@ -1,4 +1,7 @@
 # HumanScript
+
+_**This is a work in progress**._
+
 **Human Script** is a concept of short, human language like sentences, originally described in English with the possibility of implementation in other human languages which represent a ultimate high level layer or programming language which with subsequently be transpiled to the target programming language which in turn will be compiled or built to machine code or bytecode and ran on the target machine.
 
 
