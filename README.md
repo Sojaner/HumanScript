@@ -36,3 +36,21 @@ function()
 }
 , false);
 ```
+
+## Grammar
+
+### Variables
+
+**Declaration:**
+* Separate declarations:
+    * `We have a foo. We 3 bars. We have some foo bars.`
+* At once declaration:
+    * `We have a foo, 3 bars and some foo bars.`
+
+        _**Note:** bars and foo bars are fixed sized arrays and dynamically sized arrays in case the target language supports both concepts, otherwise either both will mean a dynamically sized array or only the fixed sized syntax will be valid and the transpiler should raise an error._
+
+**Definition:**
+* `The foo is 10. The bars are 10, 20 and 30. The foo bars are "A", "B", "C" and "D".`
+
+**Declaration and Definition at once:**
+* `We have a foo which is 10. We have 3 bars which are 10, 20 and 30. We have some foo bars which are "A", "B", "C" and "D".`
