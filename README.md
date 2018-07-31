@@ -57,4 +57,3 @@ function()
 **Declaration and Definition at once:**
 
 * `We have a foo which is 10. We have 3 bars which are 10, 20 and 30. We have some foo bars which are "A", "B", "C" and "D".`
-
