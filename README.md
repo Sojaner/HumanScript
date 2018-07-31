@@ -48,7 +48,7 @@ function()
 * At once declaration:
   * `We have a foo, 3 bars and some foo bars.`
 
-        _**Note:** bars and foo bars are fixed sized arrays and dynamically sized arrays in case the target language supports both concepts, otherwise either both will mean a dynamically sized array or only the fixed sized syntax will be valid and the transpiler should raise an error._
+    _**Note:** bars and foo bars are fixed sized arrays and dynamically sized arrays in case the target language supports both concepts, otherwise either both will mean a dynamically sized array or only the fixed sized syntax will be valid and the transpiler should raise an error._
 
 **Definition:**
 
